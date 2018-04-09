@@ -44,7 +44,7 @@ new GuiControlProfile (GuiDefaultProfile)
    fillColor = "42 42 42";
    fillColorHL = "228 228 235";
    fillColorSEL = "98 100 137";
-   fillColorNA = "42 42 42";
+   fillColorNA = "37 37 37";
 
    // border color
    border = 0;
@@ -121,10 +121,10 @@ if( !isObject( GuiToolTipProfile ) )
 new GuiControlProfile (GuiToolTipProfile)
 {
    // fill color
-   fillColor = "239 237 222";
+   fillColor = "35 35 35";
 
    // border color
-   borderColor   = "138 134 122";
+   borderColor   = "30 30 30";
 
    // font
    fontType = "Noto Sans";
@@ -144,7 +144,7 @@ new GuiControlProfile( GuiModelessDialogProfile )
 if( !isObject( GuiFrameSetProfile ) )
 new GuiControlProfile (GuiFrameSetProfile)
 {
-   fillColor = "42 42 42";
+   fillColor = "255 0 255";
    borderColor = "246 245 244";
    border = 1;
    opaque = true;
@@ -461,7 +461,7 @@ new GuiControlProfile( GuiTabBookProfile )
 {
    fillColorHL = "100 100 100";
    fillColorNA = "150 150 150";
-   fontColor = "30 30 30";
+   fontColor = "215 215 215";
    fontColorHL = "200 200 200";
    fontColorNA = "50 50 50";
    fontType = "Noto Sans";
@@ -469,7 +469,7 @@ new GuiControlProfile( GuiTabBookProfile )
    justify = "center";
    bitmap = "./images/tab";
    tabWidth = 64;
-   tabHeight = 24;
+   tabHeight = 25;
    tabPosition = "Top";
    tabRotation = "Horizontal";
    textOffset = "0 -3";
