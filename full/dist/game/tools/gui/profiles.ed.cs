@@ -155,8 +155,8 @@ new GuiControlProfile (ToolsGuiWindowProfile)
    opaque = false;
    border = 1;
    fillColor = "42 42 42";
-   fillColorHL = "221 221 221";
-   fillColorNA = "200 200 200";
+   fillColorHL = "42 42 42";
+   fillColorNA = "42 42 42";
    fontColor = "215 215 215";
    fontColorHL = "215 215 215";
    bevelColorHL = "255 255 255";
