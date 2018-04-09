@@ -126,7 +126,7 @@
          Profile = "GuiInspectorFieldInfoMLTextProfile";
          HorizSizing = "width";
          VertSizing = "top";
-         Position = "5 328";
+         Position = "6 217";
          Extent = "197 25";
          MinExtent = "8 2";
          canSave = "1";
