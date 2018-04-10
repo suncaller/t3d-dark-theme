@@ -127,7 +127,7 @@
          HorizSizing = "width";
          VertSizing = "top";
          Position = "6 217";
-         Extent = "197 25";
+         Extent = "197 30";
          MinExtent = "8 2";
          canSave = "1";
          Visible = "1";
