@@ -60,7 +60,7 @@
          tooltipprofile = "ToolsGuiToolTipProfile";
          hovertime = "1000";
          Docking = "client";
-         Margin = "0 35 0 5";
+         Margin = "0 43 0 5";
          Padding = "0 0 0 0";
          AnchorTop = "1";
          AnchorBottom = "0";
@@ -126,8 +126,8 @@
          Profile = "GuiInspectorFieldInfoMLTextProfile";
          HorizSizing = "width";
          VertSizing = "top";
-         Position = "6 217";
-         Extent = "197 30";
+         Position = "6 205";
+         Extent = "197 35";
          MinExtent = "8 2";
          canSave = "1";
          Visible = "1";

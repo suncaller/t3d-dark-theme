@@ -39,8 +39,8 @@ new GuiControlProfile (ToolsGuiDefaultProfile)
    // fill color
    opaque = false;
    fillColor = "42 42 42";
-   fillColorHL = "228 228 235";
-   fillColorSEL = "98 100 137";
+   fillColorHL = "91 101 116";
+   fillColorSEL = "91 101 116";
    fillColorNA = "255 0 255 ";
 
    // border color
@@ -118,15 +118,15 @@ if( !isObject( ToolsGuiToolTipProfile ) )
 new GuiControlProfile (ToolsGuiToolTipProfile)
 {
    // fill color
-   fillColor = "239 237 222";
+   fillColor = "255 255 255";
 
    // border color
-   borderColor   = "138 134 122";
+   borderColor   = "0 0 0";
 
    // font
    fontType = "Noto Sans";
    fontSize = 14;
-   fontColor = "215 215 215";
+   fontColor = "24 24 24";
 
    category = "Tools";
 };
@@ -273,9 +273,9 @@ new GuiControlProfile( ToolsGuiTextEditProfile )
    //borderWidth = "1";  // fix to display textEdit img
    //borderColor = "100 100 100";
    fillColor = "42 42 42 0";
-   fillColorHL = "255 255 255";
+   fillColorHL = "91 101 116";
    fontColor = "215 215 215";
-   fontColorHL = "255 255 255";
+   fontColorHL = "115 115 115";
    fontColorSEL = "98 100 137";
    fontColorNA = "200 200 200";
    textOffset = "4 2";
@@ -499,8 +499,8 @@ new GuiControlProfile( ToolsGuiPopUpMenuDefault : ToolsGuiDefaultProfile )
    hasBitmapArray = true;
    profileForChildren = ToolsGuiPopupMenuItemBorder;
    fillColor = "42 42 42";//"255 255 255";//100
-   fillColorHL = "228 228 235 ";//"204 203 202";
-   fillColorSEL = "98 100 137 ";//"204 203 202";
+   fillColorHL = "228 228 235 ";//"91 101 116";
+   fillColorSEL = "98 100 137 ";//"91 101 116";
    // font color is black
    fontColorHL = "215 215 215 ";//"215 215 215";
    fontColorSEL = "255 255 255";//"215 215 215";
@@ -679,11 +679,11 @@ singleton GuiControlProfile( GuiControlListPopupProfile )
 {
    opaque = true;
    fillColor = "42 42 42";
-   fillColorHL = "204 203 202";
+   fillColorHL = "91 101 116";
    border = false;
    //borderColor = "0 0 0";
    fontColor = "215 215 215";
-   fontColorHL = "215 215 215";
+   fontColorHL = "240 240 240";
    fontColorNA = "50 50 50";
    textOffset = "0 2";
    autoSizeWidth = false;
@@ -723,7 +723,7 @@ singleton GuiControlProfile( GuiInspectorTextEditProfile )
    // Transparent Background
    opaque = true;
    fillColor = "0 0 0 0";
-   fillColorHL = "255 255 255";
+   fillColorHL = "91 101 116";
 
    // No Border (Rendered by field control)
    border = false;
@@ -736,8 +736,8 @@ singleton GuiControlProfile( GuiInspectorTextEditProfile )
    fontSize = 14;
 
    fontColor = "215 215 215";
-   fontColorSEL = "43 107 206";
-   fontColorHL = "244 244 244";
+   fontColorSEL = "240 240 240";
+   fontColorHL = "240 240 240";
    fontColorNA = "100 100 100";
    category = "Editor";
 };
@@ -777,7 +777,7 @@ singleton GuiControlProfile( GuiInspectorFieldProfile)
    // fill color
    opaque = false;
    fillColor = "42 42 42";
-   fillColorHL = "204 203 202";
+   fillColorHL = "91 101 116";
    fillColorNA = "244 244 244";
 
    // border color
@@ -794,7 +794,7 @@ singleton GuiControlProfile( GuiInspectorFieldProfile)
    fontSize = 14;
 
    fontColor = "240 240 240";
-   fontColorHL = "150 150 150";
+   fontColorHL = "240 240 240";
    fontColorNA = "190 190 190";
    textOffset = "10 0";
 
@@ -822,7 +822,7 @@ singleton GuiControlProfile( GuiInspectorDynamicFieldProfile : GuiInspectorField
    // Transparent Background
    opaque = true;
    fillColor = "0 0 0 0";
-   fillColorHL = "255 255 255";
+   fillColorHL = "91 101 116";
 
    // No Border (Rendered by field control)
    border = false;
@@ -835,8 +835,8 @@ singleton GuiControlProfile( GuiInspectorDynamicFieldProfile : GuiInspectorField
    fontSize = 14;
 
    fontColor = "215 215 215";
-   fontColorSEL = "43 107 206";
-   fontColorHL = "244 244 244";
+   fontColorSEL = "240 240 240";
+   fontColorHL = "240 240 240";
    fontColorNA = "100 100 100";
    category = "Editor";
 };
@@ -930,11 +930,11 @@ singleton GuiControlProfile( GuiInspectorTypeFileNameProfile )
    justify = "center";
 
    fontColor = "240 240 240";
-   fontColorHL = "185 185 185";
+   fontColorHL = "240 240 240";
    fontColorNA = "215 215 215";
 
    fillColor = "42 42 42";
-   fillColorHL = "204 203 202";
+   fillColorHL = "91 101 116";
    fillColorNA = "244 244 244";
 
    borderColor   = "190 190 190";
