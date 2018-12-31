@@ -41,7 +41,7 @@ new GuiControlProfile (GuiDefaultProfile)
 
    // fill color
    opaque = false;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "228 228 235";
    fillColorSEL = "98 100 137";
    fillColorNA = "37 37 37";
@@ -157,7 +157,7 @@ new GuiControlProfile (GuiWindowProfile)
 {
    opaque = false;
    border = 2;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "221 221 221";
    fillColorNA = "200 200 200";
    fontColor = "240 240 240";
@@ -251,7 +251,7 @@ new GuiControlProfile( GuiTextEditProfile )
    border = -2; // fix to display textEdit img
    //borderWidth = "1";  // fix to display textEdit img
    //borderColor = "100 100 100";
-   fillColor = "42 42 42 0";
+   fillColor = "48 48 48 0";
    fillColorHL = "255 255 255";
    fontColor = "215 215 215 ";
    fontColorHL = "255 255 255";
@@ -369,7 +369,7 @@ if( !isObject( GuiScrollProfile ) )
 new GuiControlProfile( GuiScrollProfile )
 {
    opaque = true;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fontColor = "215 215 215 ";
    fontColorHL = "150 150 150";
    //borderColor = GuiDefaultProfile.borderColor;
@@ -383,7 +383,7 @@ if( !isObject( GuiOverlayProfile ) )
 new GuiControlProfile( GuiOverlayProfile )
 {
    opaque = true;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fontColor = "215 215 215 ";
    fontColorHL = "255 255 255";
    fillColor = "0 0 0 100";
@@ -435,7 +435,7 @@ new GuiControlProfile( GuiPopUpMenuDefault : GuiDefaultProfile )
    bitmap = "./images/scrollbar";
    hasBitmapArray = true;
    profileForChildren = GuiPopupMenuItemBorder;
-   fillColor = "42 42 42 ";//"255 255 255";//100
+   fillColor = "48 48 48 ";//"255 255 255";//100
    fillColorHL = "228 228 235 ";//"204 203 202";
    fillColorSEL = "98 100 137 ";//"204 203 202";
    // font color is black
@@ -513,7 +513,7 @@ new GuiControlProfile( GuiConsoleTextProfile )
    autoSizeHeight = true;   
    textOffset = "2 2";
    opaque = true;   
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    border = true;
    borderThickness = 1;
    borderColor = "0 0 0";
@@ -536,8 +536,8 @@ new GuiControlProfile( ConsoleScrollProfile : GuiScrollProfile )
 if( !isObject( ConsoleTextEditProfile ) )
 new GuiControlProfile( ConsoleTextEditProfile : GuiTextEditProfile )
 {
-   fillColor = "42 42 42 255";
-   fillColorHL = "42 42 42";   
+   fillColor = "48 48 48 255";
+   fillColorHL = "48 48 48";   
    category = "Core";
 };
 

@@ -38,7 +38,7 @@ new GuiControlProfile (ToolsGuiDefaultProfile)
 
    // fill color
    opaque = false;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "91 101 116";
    fillColorSEL = "91 101 116";
    fillColorNA = "255 0 255 ";
@@ -141,7 +141,7 @@ new GuiControlProfile( ToolsGuiModelessDialogProfile )
 if( !isObject( ToolsGuiFrameSetProfile ) )
 new GuiControlProfile (ToolsGuiFrameSetProfile)
 {
-   fillcolor = "42 42 42";
+   fillColor = "48 48 48";
    borderColor = "246 245 244";
    border = 1;
    opaque = true;
@@ -154,9 +154,9 @@ new GuiControlProfile (ToolsGuiWindowProfile)
 {
    opaque = false;
    border = 1;
-   fillColor = "42 42 42";
-   fillColorHL = "42 42 42";
-   fillColorNA = "42 42 42";
+   fillColor = "48 48 48";
+   fillColorHL = "48 48 48";
+   fillColorNA = "48 48 48";
    fontColor = "215 215 215";
    fontColorHL = "215 215 215";
    bevelColorHL = "255 255 255";
@@ -272,7 +272,7 @@ new GuiControlProfile( ToolsGuiTextEditProfile )
    border = -2; // fix to display textEdit img
    //borderWidth = "1";  // fix to display textEdit img
    //borderColor = "100 100 100";
-   fillColor = "42 42 42 0";
+   fillColor = "48 48 48 0";
    fillColorHL = "91 101 116";
    fontColor = "215 215 215";
    fontColorHL = "115 115 115";
@@ -436,7 +436,7 @@ if( !isObject( ToolsGuiScrollProfile ) )
 new GuiControlProfile( ToolsGuiScrollProfile )
 {
    opaque = true;
-   fillcolor = "42 42 42";
+   fillColor = "48 48 48";
    fontColor = "215 215 215";
    fontColorHL = "150 150 150";
    borderColor = "34 34 34";
@@ -450,7 +450,7 @@ if( !isObject( ToolsGuiOverlayProfile ) )
 new GuiControlProfile( ToolsGuiOverlayProfile )
 {
    opaque = true;
-   fillcolor = "42 42 42";
+   fillColor = "48 48 48";
    fontColor = "215 215 215";
    fontColorHL = "255 255 255";
    fillColor = "0 0 0 100";
@@ -498,7 +498,7 @@ new GuiControlProfile( ToolsGuiPopUpMenuDefault : ToolsGuiDefaultProfile )
    bitmap = "./images/scrollbar";
    hasBitmapArray = true;
    profileForChildren = ToolsGuiPopupMenuItemBorder;
-   fillColor = "42 42 42";//"255 255 255";//100
+   fillColor = "48 48 48";//"255 255 255";//100
    fillColorHL = "228 228 235 ";//"91 101 116";
    fillColorSEL = "98 100 137 ";//"91 101 116";
    // font color is black
@@ -598,7 +598,7 @@ new GuiControlProfile( ToolsGuiTreeViewProfile )
    bitmap = "./images/treeView";
    autoSizeHeight = true;
    canKeyFocus = true;
-   fillColor = "42 42 42"; 
+   fillColor = "48 48 48"; 
    fillColorHL = "116 116 116";
    fillColorSEL = "91 101 116";
    fillColorNA = "40 40 40";
@@ -624,7 +624,7 @@ new GuiControlProfile( ToolsGuiTextPadProfile )
    
    // Deviate from the Default
    opaque=true;  
-   fillColor = "42 42 42";   
+   fillColor = "48 48 48";   
    border = 0;
    category = "Tools";
 };
@@ -678,7 +678,7 @@ singleton GuiControlProfile( GuiBackFillProfile )
 singleton GuiControlProfile( GuiControlListPopupProfile )
 {
    opaque = true;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "91 101 116";
    border = false;
    //borderColor = "0 0 0";
@@ -736,7 +736,7 @@ singleton GuiControlProfile( GuiInspectorTextEditProfile )
    fontSize = 14;
 
    fontColor = "215 215 215";
-   fontColorSEL = "240 240 240";
+   fontColorSEL = "0 140 220";
    fontColorHL = "240 240 240";
    fontColorNA = "100 100 100";
    category = "Editor";
@@ -776,7 +776,7 @@ singleton GuiControlProfile( GuiInspectorFieldProfile)
 {
    // fill color
    opaque = false;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "91 101 116";
    fillColorNA = "244 244 244";
 
@@ -835,7 +835,7 @@ singleton GuiControlProfile( GuiInspectorDynamicFieldProfile : GuiInspectorField
    fontSize = 14;
 
    fontColor = "215 215 215";
-   fontColorSEL = "240 240 240";
+   fontColorSEL = "0 140 220";
    fontColorHL = "240 240 240";
    fontColorNA = "100 100 100";
    category = "Editor";
@@ -887,7 +887,7 @@ singleton GuiControlProfile( GuiInspectorStackProfile )
 singleton GuiControlProfile( GuiInspectorProfile  : GuiInspectorFieldProfile )
 {
    opaque = true;
-   fillColor = "42 42 42 255";
+   fillColor = "48 48 48 255";
    border = 0;
    cankeyfocus = true;
    tab = true;
@@ -896,7 +896,7 @@ singleton GuiControlProfile( GuiInspectorProfile  : GuiInspectorFieldProfile )
 singleton GuiControlProfile( GuiInspectorInfoProfile  : GuiInspectorFieldProfile )
 {
    opaque = true;
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    border = 0;
    cankeyfocus = true;
    tab = true;
@@ -933,7 +933,7 @@ singleton GuiControlProfile( GuiInspectorTypeFileNameProfile )
    fontColorHL = "240 240 240";
    fontColorNA = "215 215 215";
 
-   fillColor = "42 42 42";
+   fillColor = "48 48 48";
    fillColorHL = "91 101 116";
    fillColorNA = "244 244 244";
 
@@ -1067,8 +1067,8 @@ singleton GuiControlProfile( GuiCreatorIconButtonProfile )
 
 singleton GuiControlProfile( GuiMenuBarProfile )
 {
-   fillcolor = "42 42 42";
-   fillcolorHL = "42 42 42";
+   fillColor = "48 48 48";
+   fillcolorHL = "48 48 48";
    borderColor = "30 30 30 255";
    borderColorHL = "30 30 30 255";
    border = 0;
